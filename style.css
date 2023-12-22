@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body {
+  background-color: white;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20p 10px;
+}
+.LOGO {
+  font-size: 50px;
+  color: #ea2020;
+}
+nav a {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 35px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5;
+}
+nav a:hover,
+nav a.active {
+  color: #ea2020;
+  border-bottom: 1px white solid;
+}
+#btn {
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #111;
+  background-color: #ea2020;
+  border-radius: 15px;
+}
+#btn:hover {
+  background-color: white;
+  color: #ea2020;
+}
+.content {
+  position: relative;
+  top: 100px;
+  left: 25px;
+}
+.content h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: blak;
+}
+.content h1 span {
+  color: #111;
+}
+.content p {
+  font-size: 25px;
+  color: black;
+}
+.content p span {
+  color: #ea2020;
+}
+.button {
+  position: relative;
+  top: 25px;
+}
+.button button {
+  padding: 25px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 1s;
+  background-color: #ea2020;
+}
+.button button:hover {
+  background-color: white;
+  border: 1px solid #ea2020;
+  color: black;
+}
